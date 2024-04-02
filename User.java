@@ -15,7 +15,7 @@ public abstract class User {
         this.id = ++globalId; 
     }
 
-    public string GetName(){
+    public String GetName(){
         return this.name;
     }
 }
